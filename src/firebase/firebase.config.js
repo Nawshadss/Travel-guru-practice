@@ -5,13 +5,16 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9VlSq1IrZlUw9oXmNSI2-JeCMHllaLXs",
-  authDomain: "dragon-project-98fcb.firebaseapp.com",
-  projectId: "dragon-project-98fcb",
-  storageBucket: "dragon-project-98fcb.appspot.com",
-  messagingSenderId: "796241245691",
-  appId: "1:796241245691:web:bfaa2eb4a5473550d2c75e",
+  apiKey: "AIzaSyDrfX03jITwlqcoHJMbswBt-tvJDKmsl0s",
+  authDomain: "travel-guru-d24d1.firebaseapp.com",
+  projectId: "travel-guru-d24d1",
+  storageBucket: "travel-guru-d24d1.appspot.com",
+  messagingSenderId: "324690697777",
+  appId: "1:324690697777:web:caf45734952ea50b2ebf10",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+const auth = getAuth(app);
+export default auth;
